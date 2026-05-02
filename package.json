@@ -1,0 +1,16 @@
+{
+  "name": "lab5-starter",
+  "version": "1.0.0",
+  "description": "CSE 110 Lab 5 - Party Horn + Speech Synth",
+  "type": "module",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "jest": {
+    "transform": {},
+    "verbose": true
+  }
+}
