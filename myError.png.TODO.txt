@@ -1,0 +1,13 @@
+TODO - replace this file with myError.png
+
+How to capture it:
+1. Push current master to GitHub.
+2. Create a new branch called "testing": git checkout -b testing
+3. Open __tests__/sum.test.js and break the first test on purpose:
+   change `expect(1 + 2).toBe(3);` to `expect(1 + 2).toBe(4);`
+4. Commit and push the testing branch.
+5. Open a PR from testing -> master on GitHub.
+6. Wait for the GitHub Actions check to fail.
+7. Screenshot the failed CI status on the PR page (showing the red X
+   and the failing "Run sum tests" step), save as myError.png at repo root.
+8. Delete this .TODO.txt file once you have the screenshot.

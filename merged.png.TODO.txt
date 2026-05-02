@@ -1,0 +1,11 @@
+TODO - replace this file with merged.png
+
+How to capture it:
+1. After taking myError.png screenshot, fix the test on the testing branch:
+   change `expect(1 + 2).toBe(4);` back to `expect(1 + 2).toBe(3);`
+2. Commit and push.
+3. Wait for CI to go green on the PR.
+4. Merge the PR into master.
+5. Screenshot the merged PR (or the green check on the master commit
+   in Actions tab), save as merged.png at repo root.
+6. Delete this .TODO.txt file once you have the screenshot.
