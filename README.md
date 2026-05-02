@@ -1,6 +1,6 @@
 # Lab 5 - Party Horn + Speech Synth
 
-Name: Omar (TODO - update if needed)
+Name: Omar Kurdi
 Lab partner(s): none
 
 ## Pages
